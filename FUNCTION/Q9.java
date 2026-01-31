@@ -1,0 +1,14 @@
+
+
+// Simple intres function
+
+public class Q9 {
+
+    public static double simpleInterest(double p, double r, double t) {
+        return (p * r * t) / 100;
+    }
+
+    public static void main(String[] args) {
+        System.out.println(simpleInterest(1000, 5, 2));
+    }
+}
